@@ -73,7 +73,7 @@ function createProjects(xml) {
 function createThumbnailOnContainer(container, imgPath) {
     const imgContainer = createElementOnContainer('div', container);
     imgContainer.classList.add('thumbnail-container');
-    const thumbnailElement = createElementOnContainer('img', container);
+    const thumbnailElement = createElementOnContainer('img', imgContainer);
     thumbnailElement.classList.add('thumbnail');
     thumbnailElement.setAttribute('src', imgPath);
     return thumbnailElement;
