@@ -96,8 +96,8 @@ function displayProjects(xml) {
         createElementOnContainer("p", project.element, project.date);
         createElementOnContainer("p", project.element, project.objectifs);
 
-        const lienRepoElement = createElementOnContainer("a", project.element, 'Le dêpot github');
-        const lienElement = createElementOnContainer("a", project.element, 'Le lien');
+        const lienRepoElement = createElementOnContainer("a", project.element, 'Le dêpot github >');
+        const lienElement = createElementOnContainer("a", project.element, 'Le lien >');
         lienRepoElement.setAttribute('href', project.repo);
         lienElement.setAttribute('href', project.link);
 
