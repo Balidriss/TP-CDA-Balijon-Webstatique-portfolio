@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE realisations[
+    <!ELEMENT realisations (projet+)>
+<!ELEMENT projet (titre,etat, stacks, date, objectif,preview,repo)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT etat (#PCDATA)>
+<!ELEMENT stacks (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT objectifs (#PCDATA)>
+<!ELEMENT thumbnail (#PCDATA)>
+<!ELEMENT repo (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+]>
+
+<realisation>
+    <projet>
+        <titre>Mon projet 2</titre>
+        <etat>En cours</etat>
+        <stacks>php, html, js, mariadb</stacks>
+        <date>13 octobre 2000</date>
+        <objectifs>Créer un site en ligne</objectifs>
+        <thumbnail>projet-thumbnail</thumbnail>
+        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
+        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio/</link>
+    </projet>
+    <projet>
+        <titre>Mon projet 1</titre>
+        <etat>Finis</etat>
+        <stacks>php, html, js, mariadb</stacks>
+        <date>13 octobre 2000</date>
+        <objectifs>Créer un site en ligne</objectifs>
+        <thumbnail>projet-thumbnail</thumbnail>
+        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
+        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio/</link>
+    </projet>
+    <projet>
+        <titre>Mon projet 1</titre>
+        <etat>Finis</etat>
+        <stacks>php, html, js, mariadb</stacks>
+        <date>13 octobre 2000</date>
+        <objectifs>Créer un site en ligne</objectifs>
+        <thumbnail>projet-thumbnail</thumbnail>
+        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
+        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio/</link>
+    </projet>
+</projet>
