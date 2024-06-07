@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-06-07T08:48:18.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="okgN9OLj32kcP2HOcfgY" version="24.4.8" type="device">
+<mxfile host="Electron" modified="2024-06-07T08:15:53.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="qOIm0qmtG4sQDs15R20R" version="24.4.8" type="device">
   <diagram name="Page-1" id="hOS0cSgscIf_kaSF9JEm">
     <mxGraphModel dx="1434" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,12 +51,6 @@
         </mxCell>
         <mxCell id="K1wRX6gG3grAQWqlNxbR-15" value="Liens externes socials" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="690" y="60" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="K1wRX6gG3grAQWqlNxbR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1wRX6gG3grAQWqlNxbR-18" target="K1wRX6gG3grAQWqlNxbR-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K1wRX6gG3grAQWqlNxbR-18" value="xml realisations" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
