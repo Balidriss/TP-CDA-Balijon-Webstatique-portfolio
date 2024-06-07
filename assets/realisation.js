@@ -73,7 +73,7 @@ function createProjects(xml) {
 function createThumbnailOnContainer(container, imgPath) {
     const imgContainer = createElementOnContainer('div', container);
     imgContainer.classList.add('thumbnail-container');
-    const thumbnailElement = createElementOnContainer('div', container);
+    const thumbnailElement = createElementOnContainer('img', container);
     thumbnailElement.classList.add('thumbnail');
     thumbnailElement.setAttribute('src', imgPath);
     return thumbnailElement;
@@ -86,14 +86,16 @@ function displayProjects(xml) {
     projects.forEach(project => {
 
         project.element.classList.add(project.titre.replace(/ /g, ''));
+        project.element.classList.add('projet');
         //va créer un élément avec le tag et écrire le contenu à partir du xml 
         //pour assuite le mettre en enfant du conteneur de l'affichage de projet
-        createElementOnContainer("h1", project.element, project.titre);
+        createThumbnailOnContainer(project.element, project.thumbnailPath);
+        createElementOnContainer("h2", project.element, project.titre);
         createElementOnContainer("p", project.element, project.etat);
         createElementOnContainer("p", project.element, project.stacks);
         createElementOnContainer("p", project.element, project.date);
         createElementOnContainer("p", project.element, project.objectifs);
-        createThumbnailOnContainer(project.element, project.thumbnailPath);
+
         const lienRepoElement = createElementOnContainer("a", project.element, 'Le dêpot github');
         const lienElement = createElementOnContainer("a", project.element, 'Le lien');
         lienRepoElement.setAttribute('href', project.repo);

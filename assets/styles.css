@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Big Shoulders";
+    src: url("fonts/BigShoulders/static/BigShouldersInlineDisplay-Regular.ttf") format("truetype");
+
+}
+
+
+
+:root {
+    --primaryBeige: #D9BB84;
+    --secondaryBeige: #D9B384;
+    --primaryRed: #A61212;
+    --secondaryRed: #D91E1E;
+    --primaryDark: #0D0D0D;
+    --primaryLight: #EDEDED;
+    --primaryFont: "Big Shoulders";
+}
+
+body {
+    font-family: var(--primaryFont);
+    background-color: var(--primaryLight);
+}
+
+h1 {
+    --outlineWeightPositif: 0.05em;
+    --outlineWeightNegatif: -0.05em;
+    color: var(--primaryBeige);
+    text-shadow:
+        var(--outlineWeightPositif) var(--outlineWeightPositif) 0 var(--primaryDark),
+        var(--outlineWeightNegatif) var(--outlineWeightPositif) 0 var(--primaryDark),
+        var(--outlineWeightNegatif) var(--outlineWeightNegatif) 0 var(--primaryDark),
+        var(--outlineWeightPositif) var(--outlineWeightNegatif) 0 var(--primaryDark);
+    font-size: 5em;
+
+}
+
+.realisations-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projet {
+    border: var(--primaryDark) 0.8em solid;
+    border-radius: 1em;
+    background-color: var(--secondaryBeige);
+    margin: 1em auto;
+    padding: 1em;
+}
+
+.projet a {
+
+    text-decoration: none;
+    display: block;
+}
