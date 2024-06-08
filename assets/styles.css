@@ -324,3 +324,38 @@ article:last-of-type {
     border-radius: 15%;
     max-width: 250px;
 }
+
+@media (min-width: 768px) {
+    .realisations-container {
+        flex-direction: row;
+    }
+
+    #menu-burger {
+        display: none;
+    }
+
+    menu.hide {
+        display: flex;
+        flex-direction: row;
+        position: unset;
+        height: unset;
+        font-size: 1em;
+        text-align: center;
+        width: 100%;
+    }
+
+    #close-menu-burger {
+        display: none;
+    }
+
+    nav {
+        margin-left: auto;
+        align-items: center;
+        width: 60%;
+    }
+
+    menu li {
+        min-width: 200px;
+    }
+
+}
