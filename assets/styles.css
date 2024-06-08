@@ -25,6 +25,17 @@
     padding: 0;
 }
 
+p,
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
 body {
 
     background-color: var(--primaryLight);
@@ -33,9 +44,10 @@ body {
 
 
 main {
+    max-width: 1360px;
     padding: 1em;
     margin: 20vh auto;
-    min-height: 35vh;
+    min-height: 42vh;
 }
 
 header {
@@ -47,13 +59,21 @@ header {
     display: flex;
     justify-content: space-between;
 
-    background-color: var(--secondaryBeige);
+    background-color: var(--primaryBeige);
 
     border-bottom: solid 0.25em var(--primaryDark);
     box-shadow: 0em 0em 2em 2em var(--primaryBeige);
 }
 
+.consigne li {
+    padding-left: 1em;
+}
+
 footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: var(--secondaryBeige);
     border-top: solid 0.25em var(--primaryDark);
     min-height: 10vh;
@@ -67,7 +87,7 @@ footer ul {
     justify-content: center;
     gap: 1em;
     align-items: center;
-    list-style: none;
+
     height: 100%;
 }
 
@@ -83,7 +103,7 @@ footer a {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
     height: 90px;
 }
 
@@ -96,11 +116,10 @@ menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: var(--secondaryBeige);
+    background-color: var(--primaryBeige);
     height: 100vh;
     font-size: 2em;
     text-align: center;
-    list-style: none;
 }
 
 menu li a {
@@ -111,6 +130,7 @@ menu li a {
     font-family: var(--primaryFont);
     text-transform: uppercase;
     text-decoration: none;
+
 }
 
 menu li a:hover {
@@ -164,7 +184,8 @@ h1 {
     color: var(--primaryBeige);
     font-family: var(--primaryFont);
 
-    font-size: 2em;
+    font-size: 1.8em;
+    line-height: 1em;
 
     text-shadow:
         var(--outlineWeightPositif) var(--outlineWeightPositif) 0 var(--primaryRed),
@@ -176,6 +197,31 @@ h1 {
         var(--outlineWeightPositif) 0em 0 var(--primaryRed),
         var(--outlineWeightNegatif) 0em 0 var(--primaryRed);
 
+}
+
+h2 {
+    font-family: var(--primaryFont);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    margin: 0.5em 0;
+}
+
+article {
+    width: 90%;
+    margin: auto;
+    background-color: var(--secondaryBeige);
+    border: var(--primaryRed) solid 0.5em;
+    padding: 0.5em;
+
+}
+
+article:first-of-type {
+    border-radius: 0 0.5em 0 0;
+}
+
+article:last-of-type {
+    border-radius: 0 0 0.5em 0.5em;
 }
 
 .realisations-container {
