@@ -25,7 +25,9 @@ class MenuBurger {
     }
 }
 
-
+function textOnElement(element, message) {
+    element.innerText = message;
+}
 
 window.addEventListener("load", () => {
     const menuBurgerElement = new MenuBurger();
