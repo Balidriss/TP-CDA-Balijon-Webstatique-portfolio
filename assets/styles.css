@@ -243,19 +243,27 @@ article:last-of-type {
 .realisations-container {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     border: 0.75em solid var(--primaryRed);
     border-radius: 0.5em;
-    background-color: var(--secondaryBeige);
+    background-color: var(--primaryLight);
 
 }
 
 .projet {
-    border: var(--primaryDark) 0.5em solid;
+    border-top: var(--primaryDark) 0.5em solid;
+    /* border-bottom: var(--primaryDark) 0.5em solid; */
     border-radius: 10%;
     background-color: var(--secondaryBeige);
     margin: 1em auto;
     padding: 1em;
+    max-width: 400px;
+    height: fit-content;
+}
+
+.projet>* {
+    margin: 1em auto;
 }
 
 .projet a {
