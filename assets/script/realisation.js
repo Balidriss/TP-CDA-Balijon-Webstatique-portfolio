@@ -17,20 +17,7 @@ class Project {
 
 }
 
-function assetsPath(type) {
-    const assetPath = "assets/"
-    const imgPath = "img/"
-    const thumbnailPath = "thumbnail/"
-    switch (type) {
-        case "thumbnail":
-            return assetPath + imgPath + thumbnailPath;
-        case "img":
-            return assetPath + imgPath;
-        default:
-            return assetPath;
-    }
 
-}
 
 
 function createElementOnContainer(tag, container, textContent) {
