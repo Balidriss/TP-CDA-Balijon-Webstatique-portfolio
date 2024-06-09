@@ -14,33 +14,73 @@
 
 <realisations>
     <projet>
-        <titre>Mon projet 1</titre>
+        <titre>TP-CDA Webstatique Portfolio</titre>
+        <etat>Finis</etat>
+        <stacks>html,js,css, xml</stacks>
+        <date>06/2024</date>
+        <objectifs>Créer un portfolio en webstatique qui utilisera un fichier XML, ainsi qu'un formulaire avec validations.</objectifs>
+        <thumbnail>TPCDAPortfolio.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
+        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio</link>
+    </projet>
+    <projet>
+        <titre>IB - Site personnel</titre>
         <etat>En cours</etat>
-        <stacks>php, html, js, mariadb</stacks>
-        <date>13 octobre 2000</date>
-        <objectifs>Créer un site en ligne</objectifs>
-        <thumbnail>projet-thumbnail.jpg</thumbnail>
-        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
-        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio/</link>
+        <stacks>php, html, js, mariadb, scss</stacks>
+        <date>Depuis 03/2024</date>
+        <objectifs>Créer un site portfolio en ligne, avec mon CV et des mini-jeux. Il pourra ensuite être accompagné d'une application back office pour modifier facilement mon CV/Quiz/Articles.</objectifs>
+        <thumbnail>ibsoft.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/MyPage</repo>
+        <link>https://ibsoft.fr</link>
     </projet>
     <projet>
-        <titre>Mon projet 2</titre>
+        <titre>Pense bête</titre>
         <etat>Finis</etat>
-        <stacks>php, html, js, mariadb</stacks>
-        <date>13 octobre 2000</date>
-        <objectifs>Créer un site en ligne</objectifs>
-        <thumbnail>projet-thumbnail.jpg</thumbnail>
-        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
-        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio/</link>
+        <stacks>php, tailwind, MySQL</stacks>
+        <date>03/2024</date>
+        <objectifs>Apprendre le CRUD pour des penses bêtes et des Utilisateurs. Apprendre à créer des router. Apprendre à faire des validations.</objectifs>
+        <thumbnail>pensebete.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/Notes-Manager</repo>
+        <link>https://ib-page.000webhostapp.com/</link>
     </projet>
     <projet>
-        <titre>Mon projet 3</titre>
+        <titre>Salon du vin</titre>
         <etat>Finis</etat>
-        <stacks>php, html, js, mariadb</stacks>
-        <date>13 octobre 2000</date>
-        <objectifs>Créer un site en ligne</objectifs>
-        <thumbnail>projet-thumbnail.jpg</thumbnail>
-        <repo>https://github.com/Balidriss/TP-CDA-Balijon-Webstatique-portfolio</repo>
-        <link>https://balidriss.github.io/TP-CDA-Balijon-Webstatique-portfolio/</link>
+        <stacks>html, css, js</stacks>
+        <date>01/2024</date>
+        <objectifs>Projet technique de selection Human Booster x Coqpit pour l'alternance dev web. Webstatique à partir d'une maquette figma et impémenter un carousel en js.</objectifs>
+        <thumbnail>salonduvin.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/Salon-Du-Vin_Web-Statique</repo>
+        <link>https://balidriss.github.io/Salon-Du-Vin_Web-Statique</link>
+    </projet>
+    <projet>
+        <titre>Your Pizza</titre>
+        <etat>Finis</etat>
+        <stacks>php, bootstrap</stacks>
+        <date>01/2024</date>
+        <objectifs>Apprendre le CRUD pour des penses bêtes et des Utilisateurs.</objectifs>
+        <thumbnail>yourpizza.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/Your-Pizza-Recipes---PHP-training</repo>
+        <link>https://github.com/Balidriss/Your-Pizza-Recipes---PHP-training</link>
+    </projet>
+    <projet>
+        <titre>Robbie Lens Photographie</titre>
+        <etat>Finis</etat>
+        <stacks>html, css</stacks>
+        <date>01/2024</date>
+        <objectifs>Portfolio fictif. Apprendre à faire du webstatique responsive.</objectifs>
+        <thumbnail>robbielens.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/Site-Photo-Fictif-HTML5-CSS3</repo>
+        <link>https://balidriss.github.io/Site-Photo-Fictif-HTML5-CSS3/</link>
+    </projet>
+    <projet>
+        <titre>Mon site (abandonné)</titre>
+        <etat>Finis</etat>
+        <stacks>html, css, js, json</stacks>
+        <date>01/2024</date>
+        <objectifs>Portfolio. Apprendre à faire du webstatique one page et responsive en anglais/francais.</objectifs>
+        <thumbnail>monsite.jpg</thumbnail>
+        <repo>https://github.com/Balidriss/SITE</repo>
+        <link>https://balidriss.github.io/SITE/</link>
     </projet>
 </realisations>
