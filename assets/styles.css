@@ -67,6 +67,7 @@ main {
 }
 
 header {
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -81,41 +82,6 @@ header {
     box-shadow: 0em 0em 2em 2em var(--primaryBeige);
 }
 
-.consigne li {
-    padding-left: 1em;
-}
-
-footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--secondaryBeige);
-    border-top: solid 0.25em var(--primaryDark);
-    min-height: 10vh;
-    margin: auto;
-    padding: 1em;
-}
-
-footer ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1em;
-    align-items: center;
-
-    height: 100%;
-}
-
-footer li {
-    text-align: center;
-}
-
-footer a {
-    color: inherit;
-    text-decoration: none;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -124,7 +90,7 @@ nav {
 }
 
 menu {
-
+    z-index: 3;
     position: absolute;
     top: 0;
     left: 0;
@@ -215,6 +181,11 @@ h1 {
 
 }
 
+.consigne li {
+    padding-left: 1em;
+}
+
+
 h2 {
     font-family: var(--primaryFont);
     text-transform: uppercase;
@@ -294,7 +265,7 @@ article:last-of-type {
 }
 
 #section-form .container *:not(button) {
-    padding: 1em;
+    padding: 0.5em;
     background-color: var(--primaryBeige);
 
 }
@@ -326,7 +297,7 @@ article:last-of-type {
 #section-form .error {
     margin: 0;
     padding: 0;
-    color: red;
+    color: var(--primaryRed);
     text-transform: uppercase;
     letter-spacing: 0.5em;
 
@@ -344,9 +315,41 @@ article:last-of-type {
 
 
 .projet img {
-    border: #A61212 solid 0.5em;
+    border: var(--primaryRed) solid 0.5em;
     border-radius: 15%;
     max-width: 250px;
+}
+
+footer {
+    z-index: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--secondaryBeige);
+    border-top: solid 0.25em var(--primaryDark);
+    min-height: 10vh;
+    margin: auto;
+    padding: 1em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+
+    height: 100%;
+}
+
+footer li {
+    text-align: center;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
