@@ -236,7 +236,12 @@ article:last-of-type {
 .projet>* {
     margin: 1em auto;
 }
-
+.projet img {
+    width: 100%;
+    border: var(--primaryRed) solid 0.5em;
+    border-radius: 15%;
+    max-width: 250px;
+}
 .projet a {
 
     text-decoration: none;
@@ -311,13 +316,6 @@ article:last-of-type {
     padding: 0.5em 1em;
     margin-top: 1em;
     width: fit-content;
-}
-
-
-.projet img {
-    border: var(--primaryRed) solid 0.5em;
-    border-radius: 15%;
-    max-width: 250px;
 }
 
 footer {
