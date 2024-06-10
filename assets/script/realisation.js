@@ -27,12 +27,15 @@ function createElementOnContainer(tag, container, textContent) {
     return element;
 }
 
+//va recupérer dans le DOM le contenu, indexDom est l'index correspondant a l'élément.
+// 0 = titre , 1 = etat etc... 
 function getProjectcontent(projects, indexDom, index) {
 
     return projects[index]['children'][indexDom].textContent;
 }
 
 // Fonction pour charger le fichier XML avec fetch
+// Besoin d'utiliser liveserver
 async function loadXMLDoc(filename) {
     try {
         const response = await fetch(filename)
@@ -74,8 +77,8 @@ function displayProjects(xml) {
 
         project.element.classList.add(project.titre.replace(/ /g, ''));
         project.element.classList.add('projet');
-        //va créer un élément avec le tag et écrire le contenu à partir du xml 
-        //pour assuite le mettre en enfant du conteneur de l'affichage de projet
+        //va créer un élément avec le tag et écrire le contenu à partir de la class 
+        //pour ensuite le mettre en enfant du conteneur
         createThumbnailOnContainer(project.element, project.thumbnailPath);
         createElementOnContainer("h2", project.element, project.titre);
         createElementOnContainer("p", project.element, project.etat);
