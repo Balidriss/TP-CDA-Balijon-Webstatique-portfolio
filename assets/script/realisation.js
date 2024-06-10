@@ -66,6 +66,7 @@ function createThumbnailOnContainer(container, imgPath) {
     const thumbnailElement = createElementOnContainer('img', imgContainer);
     thumbnailElement.classList.add('thumbnail');
     thumbnailElement.setAttribute('src', imgPath);
+    thumbnailElement.setAttribute('alt', "Aperçut du projet");
     return thumbnailElement;
 }
 
